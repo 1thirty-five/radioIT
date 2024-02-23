@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>
+		Build a Survey Form using HTML and CSS
+	</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<h1>Music prefrences of IT</h1>
+
+
+	<form id="form">
+
+	
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<input type="text" id="name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+		
+			<input type="email" id="email"
+				placeholder="Enter your email" />
+		</div>
+
+		
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Which year are you currently in?
+			</label>
+
+
+			<select name="role" id="role">
+				<option value="FY">First Year (FY)</option>
+				<option value="SY">Second Year (SY)</option>
+				<option value="TY">Third Year (TY)</option>
+				<option value="LY">Last Year (LY)</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>
+				How often do you listen to music?
+
+			</label>
+
+
+			<label for="hrs-1">
+				<input type="checkbox" id="hrs-1"
+					name="hrs"> A Lot
+				</input>
+			</label>
+			<label for="hrs-2">
+				<input type="checkbox" id="hrs-2"
+					name="hrs"> Often
+				</input>
+			</label>
+			<label for="hrs-3">
+				<input type="checkbox" id="hrs-3"
+					name="hrs"> Barely
+				</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label>What Genres do you listen to?
+				<small>(Check all that apply)</small>
+			</label>
+
+			<label for="inp-1"> 
+				<input type="checkbox" name="inp"> Rock
+				</input>
+			</label>
+			<label for="inp-2">
+				<input type="checkbox" name="inp"> Jazz
+				</input>
+			</label>
+			<label for="inp-3">
+				<input type="checkbox" name="inp"> Electronic dance music (EDM)
+				</input>
+			</label>
+			<label for="inp-4">
+				<input type="checkbox" name="inp"> Rhythm and Blues (R&B)
+				</input>
+			</label>
+			<label for="inp-5">
+				<input type="checkbox" name="inp"> Country
+				</input>
+			</label>
+			<label for="inp-6">
+				<input type="checkbox" name="inp"> Pop
+				</input>
+			</label>
+			<label for="inp-7">
+				<input type="checkbox" name="inp"> Western Classical
+				</input>
+			</label>
+			<label for="inp-7">
+				<input type="checkbox" name="inp"> Indian Classical
+				</input>
+			</label>
+			<label for="inp-7">
+				<input type="checkbox" name="inp"> Rap
+				</input>
+			</label>
+			<label for="inp-7">
+				<input type="checkbox" name="inp"> Folk
+				</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				Any additional comments or preffrences
+			</label>
+
+			<textarea name="comment" id="comment"
+					placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+
+		<button type="submit" value="submit">
+			<br>
+			Submit
+			<br>
+			&nbsp;
+		</button>
+	</form>
+</body>
+
+</html>
